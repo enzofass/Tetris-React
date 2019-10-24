@@ -1,8 +1,5 @@
-import React from 'react';
-import { directive } from '@babel/types';
+import React from "react";
 
-const StartButton = ({ callback }) => (
-  <div>Start Game</div>
-)
+const StartButton = ({ callback }) => <div>Start Game</div>;
 
 export default StartButton;
